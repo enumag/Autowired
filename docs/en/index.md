@@ -28,6 +28,12 @@ abstract class BasePresenter extends Nette\Application\UI\Presenter
 }
 ```
 
+For debugging purposes you may also add the AutowiredExtension in bootstrap.php.
+
+
+```php
+\Kdyby\Autowired\AutowiredExtension::register();
+```
 
 
 Autowired properties
